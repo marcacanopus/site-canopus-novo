@@ -1,0 +1,64 @@
+[
+    {
+      "title": "Empreendimentos",
+      "items": [
+        { "label": "Imóveis em Belo Horizonte", "href": "/" },
+        { "label": "Imóveis em São Paulo", "href": "/" },
+        { "label": "Imóveis no Rio de Janeiro", "href": "/" },
+        { "label": "Todos os imóveis Canopus à venda", "href": "/" },
+        { "label": "Lançamento no Alto da Boa Vista SP", "href": "/" },
+        { "label": "Breve Lançamento Paraíso São Paulo", "href": "/" },
+        { "label": "Lançamento no Campo Belo SP", "href": "/" },
+        { "label": "Futuro lançamento em Moema", "href": "/" },
+        { "label": "Linha Today Canopus em São Paulo", "href": "/" },
+        { "label": "Lançamento em Botafogo RJ", "href": "/" },
+        { "label": "Andares Corporativos em BH", "href": "/" },
+        { "label": "4 quartos no Santo Agostinho", "href": "/" },
+        { "label": "Alto padrão em BH", "href": "/" },
+        { "label": "Studios em São Paulo", "href": "/" }
+      ]
+    },
+    {
+      "title": "Endereços",
+      "items": [
+        {
+          "label": "Belo Horizonte - (31) 3281-7070 - R. Maria Luiza Santiago, 200 - Ed. Century Tower - 23º andar - Santa Lúcia",
+          "href": "/"
+        },
+        {
+          "label": "São Paulo - (11) 3044-3030 - Rua Fidêncio Ramos, 302 - Torre B, 6º andar, Conj. 64 - Vila Olímpia",
+          "href": "/"
+        },
+        {
+          "label": "Rio de Janeiro - (21) 3299-8900 - Av. das Américas, 3.500 - Le Monde Office - Ed. Hong Kong 2000 - Bl 6, Grupo 501 - Barra da Tijuca",
+          "href": "/"
+        }
+      ]
+    },
+    {
+      "title": "Fale conosco",
+      "items": [
+        { "label": "Fale conosco", "href": "/" },
+        { "label": "Já sou cliente", "href": "/" },
+        { "label": "Sou vizinho", "href": "/" },
+        { "label": "Quero ser corretor parceiro", "href": "/" },
+        { "label": "Quero ser fornecedor", "href": "/" },
+        { "label": "Quero vender um terreno", "href": "/" },
+        { "label": "Enviar mensagem para um corretor", "href": "/" }
+      ]
+    },
+    {
+      "title": "Links",
+      "items": [
+        { "label": "Imóveis à Venda", "href": "/" },
+        { "label": "A Canopus", "href": "/" },
+        { "label": "Portfólio", "href": "/" },
+        { "label": "Blog", "href": "/" },
+        { "label": "Sou Cliente", "href": "/" },
+        { "label": "Fale Conosco", "href": "/" },
+        { "label": "Trabalhe Conosco", "href": "/" },
+        { "label": "Política de Privacidade", "href": "/" }
+      ]
+    }
+  ]
+  

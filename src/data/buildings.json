@@ -1,0 +1,74 @@
+[
+    {
+        "image": "/images/ThePlace.jpg",
+        "name": "Belo Horizonte - Santo Agostinho",
+        "size": "150m²",
+        "rooms": 4,
+        "suites": 2,
+        "semiSuites": 2,
+        "garage": 5
+    },
+    {
+        "image": "/images/Perdizes.jpg",
+        "name": "Perdizes - Santo Agostinho",
+        "size": "150m²",
+        "rooms": 4,
+        "suites": 2,
+        "semiSuites": 2,
+        "garage": 5
+    },
+    {
+        "image": "/images/Tatuape.jpg",
+        "name": "Tatuape - Santo Agostinho",
+        "size": "150m²",
+        "rooms": 4,
+        "suites": 2,
+        "semiSuites": 2,
+        "garage": 5
+    },
+    {
+        "image": "/images/Botafogo.jpg",
+        "name": "Botafogo - Rio de Janeiro",
+        "size": "150m²",
+        "rooms": 4,
+        "suites": 2,
+        "semiSuites": 2,
+        "garage": 5
+    },
+    {
+        "image": "/images/Joaquim.jpg",
+        "name": "Joaquim - Santo Agostinho",
+        "size": "150m²",
+        "rooms": 4,
+        "suites": 2,
+        "semiSuites": 2,
+        "garage": 5
+    },
+    {
+        "image": "/images/Tatuape.jpg",
+        "name": "Tatuape - Santo Agostinho",
+        "size": "150m²",
+        "rooms": 4,
+        "suites": 2,
+        "semiSuites": 2,
+        "garage": 5
+    },
+    {
+        "image": "/images/Paulista.jpg",
+        "name": "Today Paulista - Santo Agostinho",
+        "size": "150m²",
+        "rooms": 4,
+        "suites": 2,
+        "semiSuites": 2,
+        "garage": 5
+    },
+    {
+        "image": "/images/CampoBelo.jpg",
+        "name": "Campo Belo - Santo Agostinho",
+        "size": "150m²",
+        "rooms": 4,
+        "suites": 2,
+        "semiSuites": 2,
+        "garage": 5
+    }
+]
