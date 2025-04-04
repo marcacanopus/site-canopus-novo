@@ -1,5 +1,5 @@
 import { Empreendimento } from "@/types/Empreendimento";
-import { BedDouble, CarFront, Ruler, BedSingle } from "lucide-react";
+import { BedDouble, Ruler, BedSingle } from "lucide-react";
 import clsx from "clsx";
 
 type Props = {

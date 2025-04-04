@@ -1,4 +1,3 @@
-import Image from "next/image";
 import slides from "@/data/slides.json";
 import Slider from "@/components/Slider";
 import buildingsData from "@/data/buildings.json";
