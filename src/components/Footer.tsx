@@ -1,11 +1,5 @@
 import { FooterSection } from "@/types/FooterSection";
-import {
-  Facebook,
-  Instagram,
-  Linkedin,
-  X,
-  Youtube,
-} from "lucide-react";
+import { Facebook, Instagram, Linkedin, X, Youtube } from "lucide-react";
 import Image from "next/image";
 
 type Props = {
@@ -15,21 +9,30 @@ type Props = {
 export default function Footer({ sections }: Props) {
   return (
     <div className="border-14 border-y-0 border-x-[#023043]">
-      <div className="flex align-center justify-between md:items-start bg-white p-4  container mx-auto">
+      <div className="flex items-center justify-between md:items-start bg-white p-4  container mx-auto">
         <Image
-          className=""
           src="/site-canopus-novo/logo_canopus.svg"
           alt="Next.js logo"
-          width={140}
+          width={200}
           height={30}
           priority
         />
         <div className="flex gap-4 text-white/80 text-xl">
-          <Facebook size={30} className="text-[var(--color-canopus-blue)]" />
-          <Instagram size={30} className="text-[var(--color-canopus-blue)]" />
-          <Linkedin size={30} className="text-[var(--color-canopus-blue)]" />
-          <X size={30} className="text-[var(--color-canopus-blue)]" />
-          <Youtube size={30} className="text-[var(--color-canopus-blue)]" />
+          <a href="/">
+            <Facebook size={30} className="text-[var(--color-canopus-blue)]" />
+          </a>
+          <a href="/">
+            <Instagram size={30} className="text-[var(--color-canopus-blue)]" />
+          </a>
+          <a href="/">
+            <Linkedin size={30} className="text-[var(--color-canopus-blue)]" />
+          </a>
+          <a href="/">
+            <X size={30} className="text-[var(--color-canopus-blue)]" />
+          </a>
+          <a href="/">
+            <Youtube size={30} className="text-[var(--color-canopus-blue)]" />
+          </a>
         </div>
       </div>
       <footer className="bg-[#023043] text-white pt-12 pb-6 px-6 md:px-16">
@@ -40,7 +43,10 @@ export default function Footer({ sections }: Props) {
               <ul className="space-y-2 text-sm text-white/80">
                 {section.items.map((item, i) => (
                   <li key={i} className="flex flex-col p-0.5">
-                    <a href={item.href} className="hover:underline font-semibold">
+                    <a
+                      href={item.href}
+                      className="hover:underline font-semibold"
+                    >
                       {item.subtitle}
                     </a>
                     <a href={item.href} className="hover:underline">

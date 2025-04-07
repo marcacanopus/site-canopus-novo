@@ -5,6 +5,7 @@
   --foreground: #171717;
   --canopusBlue: #0F3C52;
   --canopusYellow: #CFBC7B;
+  --CanopusBlueLight: #2bd4c3;
 }
 
 @theme inline {
@@ -12,6 +13,7 @@
   --color-foreground: var(--foreground);
   --color-canopus-blue: var(--canopusBlue);
   --color-canopus-yellow: var(--canopusYellow);
+  --color-canopus-blue-light: var(--canopusBlueLight);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
