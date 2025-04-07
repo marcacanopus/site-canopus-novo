@@ -1,7 +1,8 @@
 export type FooterSection = {
     title: string;
     items: {
-      label: string;
+      subtitle?: string;
+      label?: string;
       href: string;
     }[];
   };

@@ -1,4 +1,11 @@
 import { FooterSection } from "@/types/FooterSection";
+import {
+  Facebook,
+  Instagram,
+  Linkedin,
+  X,
+  Youtube,
+} from "lucide-react";
 import Image from "next/image";
 
 type Props = {
@@ -7,8 +14,8 @@ type Props = {
 
 export default function Footer({ sections }: Props) {
   return (
-    <footer className="bg-[#023043] text-white pt-12 pb-6 px-6 md:px-16">
-      <div className="flex flex-col items-center md:items-start bg-white p-4">
+    <div className="border-14 border-y-0 border-x-[#023043]">
+      <div className="flex align-center justify-between md:items-start bg-white p-4  container mx-auto">
         <Image
           className=""
           src="/site-canopus-novo/logo_canopus.svg"
@@ -16,38 +23,40 @@ export default function Footer({ sections }: Props) {
           width={140}
           height={30}
           priority
-        />{" "}
+        />
         <div className="flex gap-4 text-white/80 text-xl">
-          <i className="fab fa-facebook-f" />
-          <i className="fab fa-instagram" />
-          <i className="fab fa-linkedin-in" />
-          <i className="fab fa-x-twitter" />
-          <i className="fab fa-youtube" />
-          <i className="fab fa-pinterest" />
-          <i className="fab fa-tiktok" />
+          <Facebook size={30} className="text-[var(--color-canopus-blue)]" />
+          <Instagram size={30} className="text-[var(--color-canopus-blue)]" />
+          <Linkedin size={30} className="text-[var(--color-canopus-blue)]" />
+          <X size={30} className="text-[var(--color-canopus-blue)]" />
+          <Youtube size={30} className="text-[var(--color-canopus-blue)]" />
         </div>
       </div>
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between gap-12">
-    
-        {sections.map((section, index) => (
-          <div key={index}>
-            <h4 className="text-white font-semibold mb-4">{section.title}</h4>
-            <ul className="space-y-2 text-sm text-white/80">
-              {section.items.map((item, i) => (
-                <li key={i}>
-                  <a href={item.href} className="hover:underline">
-                    {item.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
+      <footer className="bg-[#023043] text-white pt-12 pb-6 px-6 md:px-16">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between gap-12">
+          {sections.map((section, index) => (
+            <div key={index} className="md:w-1/4">
+              <h4 className="text-white font-semibold mb-4">{section.title}</h4>
+              <ul className="space-y-2 text-sm text-white/80">
+                {section.items.map((item, i) => (
+                  <li key={i} className="flex flex-col p-0.5">
+                    <a href={item.href} className="hover:underline font-semibold">
+                      {item.subtitle}
+                    </a>
+                    <a href={item.href} className="hover:underline">
+                      {item.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
 
-      <div className="mt-12 text-center text-white/60 text-sm">
-        © Todos os Direitos Reservados. Canopus 2025
-      </div>
-    </footer>
+        <div className="mt-12 text-center text-white/60 text-sm">
+          © Todos os Direitos Reservados. Canopus 2025
+        </div>
+      </footer>
+    </div>
   );
 }
