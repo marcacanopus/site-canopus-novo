@@ -1,13 +1,13 @@
 [
     {
-      "image": "/images/Slider_1.jpg",
+      "image": "/images/imgs/Slider_1.jpg",
       "title": "Alto da Boa Vista",
       "subtitle": "No local mais desejado de todo o Rio de Janeiro",
       "status": "Breve | 1 e 2 dorms • Studios",
       "button": "Visite o decorado →"
     },
     {
-        "image": "/images/Slider_2.jpg",
+        "image": "/images/imgs/Slider_2.jpg",
         "title": "The Place",
         "subtitle": "Seu espaço, seu lar, sua história",
         "status": "Breve | 4 dorms • Studios",
