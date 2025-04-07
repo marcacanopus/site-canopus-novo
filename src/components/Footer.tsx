@@ -11,14 +11,13 @@ export default function Footer({ sections }: Props) {
       <div className="flex flex-col items-center md:items-start bg-white p-4">
         <Image
           className=""
-          src="/logo_canopus.svg"
+          src="/site-canopus-novo/logo_canopus.svg"
           alt="Next.js logo"
           width={140}
           height={30}
           priority
         />{" "}
         <div className="flex gap-4 text-white/80 text-xl">
-          {/* redes sociais - coloque ícones ou use react-icons */}
           <i className="fab fa-facebook-f" />
           <i className="fab fa-instagram" />
           <i className="fab fa-linkedin-in" />
@@ -29,9 +28,7 @@ export default function Footer({ sections }: Props) {
         </div>
       </div>
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between gap-12">
-        {/* Logo */}
-
-        {/* Seções */}
+    
         {sections.map((section, index) => (
           <div key={index}>
             <h4 className="text-white font-semibold mb-4">{section.title}</h4>
@@ -48,7 +45,6 @@ export default function Footer({ sections }: Props) {
         ))}
       </div>
 
-      {/* Footer base */}
       <div className="mt-12 text-center text-white/60 text-sm">
         © Todos os Direitos Reservados. Canopus 2025
       </div>

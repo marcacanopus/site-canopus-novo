@@ -8,7 +8,7 @@ export default function Header() {
             <nav className="flex gap-6 items-center justify-center">
                     <Image
                         className=""
-                        src="/logo_canopus.svg"
+                        src="/site-canopus-novo/logo_canopus.svg"
                         alt="Next.js logo"
                         width={140}
                         height={30}

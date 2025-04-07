@@ -1,6 +1,6 @@
 [
     {
-        "image": "/images/imgs/ThePlace.jpg",
+        "image": "/site-canopus-novo/images/ThePlace.jpg",
         "name": "Belo Horizonte - Santo Agostinho",
         "size": "150m²",
         "rooms": 4,
@@ -9,7 +9,7 @@
         "garage": 5
     },
     {
-        "image": "/images/imgs/Perdizes.jpg",
+        "image": "/site-canopus-novo/images/Perdizes.jpg",
         "name": "Perdizes - Santo Agostinho",
         "size": "150m²",
         "rooms": 4,
@@ -18,7 +18,7 @@
         "garage": 5
     },
     {
-        "image": "/images/imgs/Tatuape.jpg",
+        "image": "/site-canopus-novo/images/Tatuape.jpg",
         "name": "Tatuape - Santo Agostinho",
         "size": "150m²",
         "rooms": 4,
@@ -27,7 +27,7 @@
         "garage": 5
     },
     {
-        "image": "/images/imgs/Botafogo.jpg",
+        "image": "/site-canopus-novo/images/Botafogo.jpg",
         "name": "Botafogo - Rio de Janeiro",
         "size": "150m²",
         "rooms": 4,
@@ -36,7 +36,7 @@
         "garage": 5
     },
     {
-        "image": "/images/imgs/Joaquim.jpg",
+        "image": "/site-canopus-novo/images/Joaquim.jpg",
         "name": "Joaquim - Santo Agostinho",
         "size": "150m²",
         "rooms": 4,
@@ -45,7 +45,7 @@
         "garage": 5
     },
     {
-        "image": "/images/imgs/Tatuape.jpg",
+        "image": "/site-canopus-novo/images/Tatuape.jpg",
         "name": "Tatuape - Santo Agostinho",
         "size": "150m²",
         "rooms": 4,
@@ -54,7 +54,7 @@
         "garage": 5
     },
     {
-        "image": "/images/imgs/Paulista.jpg",
+        "image": "/site-canopus-novo/images/Paulista.jpg",
         "name": "Today Paulista - Santo Agostinho",
         "size": "150m²",
         "rooms": 4,
@@ -63,7 +63,7 @@
         "garage": 5
     },
     {
-        "image": "/images/imgs/CampoBelo.jpg",
+        "image": "/site-canopus-novo/images/CampoBelo.jpg",
         "name": "Campo Belo - Santo Agostinho",
         "size": "150m²",
         "rooms": 4,
