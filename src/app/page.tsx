@@ -4,8 +4,9 @@ import buildingsData from "@/data/buildings.json";
 import ReleaseBuildingsCards from "@/components/ReleaseBuildings";
 import BuildingsCards from "@/components/BuildindsCard";
 import Hero from "@/components/Hero";
-import StatsSection from "@/components/StatsSection";
 import AboutSection from "@/components/About";
+import postData from "@/data/post.json";
+import PostCard from "@/components/PostCard";
 
 export default function Home() {
   return (
@@ -42,6 +43,30 @@ export default function Home() {
       <div className="container mx-auto mb-4" id="hero">
         <Hero />
         <AboutSection />
+      </div>
+      <div id="buildings" className="container mx-auto mb-4">
+        <div className="flex items-center justify-start gap-3 pt-8">
+          <span className="text-4xl font-bold text-canopus-blue">
+            Destaques
+          </span>
+          <div className="mt-2 w-1000 h-[2] bg-canopus-blue rounded-full" />
+         
+        </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 mt-4">
+              {postData.map((post, index) => (
+                <div
+                  key={index}
+                  className="bg-white rounded shadow hover:shadow-md transition overflow-hidden"
+                >
+                  <PostCard
+                    excerpt={post.excerpt}
+                    image={post.image}
+                    link={post.link}
+                    title={post.title}
+                  />
+                </div>
+              ))}
+            </div>
       </div>
     </div>
     // <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
