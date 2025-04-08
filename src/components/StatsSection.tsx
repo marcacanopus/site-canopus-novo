@@ -1,9 +1,7 @@
 "use client";
 import {
-  Building,
   Building2,
   KeySquare,
-  LocateIcon,
   MapPin,
   NotebookPen,
 } from "lucide-react";

@@ -18,21 +18,11 @@ export default function Footer({ sections }: Props) {
           priority
         />
         <div className="flex gap-4 text-white/80 text-xl">
-          <a href="/">
-            <Facebook size={30} className="text-[var(--color-canopus-blue)]" />
-          </a>
-          <a href="/">
-            <Instagram size={30} className="text-[var(--color-canopus-blue)]" />
-          </a>
-          <a href="/">
-            <Linkedin size={30} className="text-[var(--color-canopus-blue)]" />
-          </a>
-          <a href="/">
-            <X size={30} className="text-[var(--color-canopus-blue)]" />
-          </a>
-          <a href="/">
-            <Youtube size={30} className="text-[var(--color-canopus-blue)]" />
-          </a>
+          <Facebook size={30} className="text-[var(--color-canopus-blue)]" />
+          <Instagram size={30} className="text-[var(--color-canopus-blue)]" />
+          <Linkedin size={30} className="text-[var(--color-canopus-blue)]" />
+          <X size={30} className="text-[var(--color-canopus-blue)]" />
+          <Youtube size={30} className="text-[var(--color-canopus-blue)]" />
         </div>
       </div>
       <footer className="bg-[#023043] text-white pt-12 pb-6 px-6 md:px-16">
