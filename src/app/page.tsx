@@ -1,18 +1,20 @@
 import slides from "@/data/slides.json";
 import Slider from "@/components/Slider";
-import buildingsData from "@/data/buildings.json";
 import ReleaseBuildingsCards from "@/components/ReleaseBuildings";
 import BuildingsCards from "@/components/BuildindsCard";
 import Hero from "@/components/Hero";
 import AboutSection from "@/components/About";
-import postData from "@/data/post.json";
 import PostCard from "@/components/PostCard";
+import InstagramEmbed from "@/components/InstagramEmbed";
+import buildingsData from "@/data/buildings.json";
+import postData from "@/data/post.json";
+import instagramData from "@/data/instagram.json";
+
 
 export default function Home() {
   return (
     <div>
       <Slider slides={slides} />
-
       <div id="releases" className="container mx-auto">
         <div className="flex items-center justify-center flex-col pt-8">
           <span className="text-4xl font-bold text-canopus-blue">
@@ -56,7 +58,7 @@ export default function Home() {
               {postData.map((post, index) => (
                 <div
                   key={index}
-                  className="bg-white rounded shadow hover:shadow-md transition overflow-hidden"
+                  className="bg-white rounded shadow hover:shadow-md p-2 transition overflow-hidden"
                 >
                   <PostCard
                     excerpt={post.excerpt}
@@ -64,6 +66,25 @@ export default function Home() {
                     link={post.link}
                     title={post.title}
                   />
+                </div>
+              ))}
+            </div>
+      </div>
+      <div id="instagram" className="container mx-auto mb-4">
+        <div className="flex items-center justify-start gap-3 pt-8">
+          <span className="text-4xl font-bold text-canopus-blue">
+            últimos posts do Instagram
+          </span>
+          <div className="mt-2 border w-full bg-canopus-blue rounded-full" />
+
+        </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 mt-4">
+              {instagramData.map((post, index) => (
+                <div
+                  key={index}
+                  className="bg-white rounded shadow hover:shadow-md transition overflow-hidden"
+                >
+                  <InstagramEmbed url={post.url} />
                 </div>
               ))}
             </div>
