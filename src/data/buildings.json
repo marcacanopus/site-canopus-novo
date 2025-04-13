@@ -1,8 +1,9 @@
 [
     {
         "image": "/site-canopus-novo/images/ThePlace.jpg",
-        "name": "Belo Horizonte - Santo Agostinho",
+        "name": "The Place - Santo Agostinho",
         "size": "150m²",
+        "city": "Belo Horizonte",
         "rooms": 4,
         "suites": 2,
         "semiSuites": 2,
@@ -12,6 +13,7 @@
         "image": "/site-canopus-novo/images/Perdizes.jpg",
         "name": "Perdizes - Santo Agostinho",
         "size": "150m²",
+        "city": "São Paulo",
         "rooms": 4,
         "suites": 2,
         "semiSuites": 2,
@@ -22,6 +24,7 @@
         "name": "Tatuape - Santo Agostinho",
         "size": "150m²",
         "rooms": 4,
+        "city": "São Paulo",
         "suites": 2,
         "semiSuites": 2,
         "garage": 5
@@ -30,6 +33,7 @@
         "image": "/site-canopus-novo/images/BotaFogo.jpg",
         "name": "Botafogo - Rio de Janeiro",
         "size": "150m²",
+        "city": "Rio de Janeiro",
         "rooms": 4,
         "suites": 2,
         "semiSuites": 2,
@@ -37,8 +41,9 @@
     },
     {
         "image": "/site-canopus-novo/images/Joaquim.jpg",
-        "name": "Joaquim - Santo Agostinho",
+        "name": "Joaquim Tavora - São Paulo",
         "size": "150m²",
+        "city": "São Paulo",
         "rooms": 4,
         "suites": 2,
         "semiSuites": 2,
@@ -46,8 +51,9 @@
     },
     {
         "image": "/site-canopus-novo/images/Tatuape.jpg",
-        "name": "Tatuape - Santo Agostinho",
+        "name": "Arq Life Design Botafogo",
         "size": "150m²",
+        "city": "Rio de Janeiro",
         "rooms": 4,
         "suites": 2,
         "semiSuites": 2,
@@ -55,17 +61,29 @@
     },
     {
         "image": "/site-canopus-novo/images/Paulista.jpg",
-        "name": "Today Paulista - Santo Agostinho",
+        "name": "History Corporate - Belo Horizonte",
         "size": "150m²",
         "rooms": 4,
+        "city": "Belo Horizonte",
         "suites": 2,
         "semiSuites": 2,
         "garage": 5
     },
     {
         "image": "/site-canopus-novo/images/CampoBelo.jpg",
-        "name": "Campo Belo - Santo Agostinho",
+        "name": "Infinity Art Residences - Belo Horizonte",
         "size": "150m²",
+        "city": "Belo Horizonte",
+        "rooms": 4,
+        "suites": 2,
+        "semiSuites": 2,
+        "garage": 5
+    },
+    {
+        "image": "/site-canopus-novo/images/Joaquim.jpg",
+        "name": "Soul Península - Rio de Janeiro",
+        "size": "150m²",
+        "city": "Rio de Janeiro",
         "rooms": 4,
         "suites": 2,
         "semiSuites": 2,

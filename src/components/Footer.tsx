@@ -9,7 +9,7 @@ type Props = {
 export default function Footer({ sections }: Props) {
   return (
     <div className="border-14 border-y-0 border-x-[#023043]">
-      <div className="flex items-center justify-between md:items-start bg-white p-4  container mx-auto">
+      <div className="flex flex-col md:flex-row items-center justify-between md:items-start bg-white p-4 container mx-auto">
         <Image
           src="/site-canopus-novo/logo_canopus.svg"
           alt="Next.js logo"
@@ -17,7 +17,7 @@ export default function Footer({ sections }: Props) {
           height={30}
           priority
         />
-        <div className="flex gap-4 text-white/80 text-xl">
+        <div className="flex gap-4 text-white/80 text-xl sm:hidden">
           <Facebook size={30} className="text-[var(--color-canopus-blue)]" />
           <Instagram size={30} className="text-[var(--color-canopus-blue)]" />
           <Linkedin size={30} className="text-[var(--color-canopus-blue)]" />

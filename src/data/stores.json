@@ -1,0 +1,84 @@
+[
+    {
+      "nome": "Loja Savassi",
+      "cidade": "Belo Horizonte",
+      "funcionamento": "Das 09h às 19h, todos os dias",
+      "telefone": "(31) 99999-1111",
+      "endereco": "Rua Pernambuco, 1200 - Savassi, BH",
+      "decorado": true,
+      "image": "/site-canopus-novo/images/ThePlace.jpg"
+    },
+    {
+      "nome": "Loja Pampulha",
+      "cidade": "Belo Horizonte",
+      "funcionamento": "Das 10h às 18h, de seg. a sáb.",
+      "telefone": "(31) 98888-2222",
+      "endereco": "Av. Pedro I, 3000 - Pampulha, BH",
+      "decorado": false,
+      "image": "/site-canopus-novo/images/Perdizes.jpg"
+    },
+    {
+      "nome": "Loja Centro BH",
+      "cidade": "Belo Horizonte",
+      "funcionamento": "Das 08h às 17h, de seg. a sex.",
+      "telefone": "(31) 97777-3333",
+      "endereco": "Praça Sete, 45 - Centro, BH",
+      "decorado": true,
+      "image": "/site-canopus-novo/images/Tatuape.jpg"
+    },
+    {
+      "nome": "Loja Moema",
+      "cidade": "São Paulo",
+      "funcionamento": "Das 09h às 20h, todos os dias",
+      "telefone": "(11) 93333-4444",
+      "endereco": "Av. Ibirapuera, 1500 - Moema, SP",
+      "decorado": true,
+      "image": "/site-canopus-novo/images/BotaFogo.jpg"
+    },
+    {
+      "nome": "Loja Vila Mariana",
+      "cidade": "São Paulo",
+      "funcionamento": "Das 10h às 18h, de seg. a sáb.",
+      "telefone": "(11) 92222-5555",
+      "endereco": "Rua Domingos de Morais, 2200 - Vila Mariana, SP",
+      "decorado": false,
+      "image": "/site-canopus-novo/images/BotaFogo.jpg"
+    },
+    {
+      "nome": "Loja Paulista",
+      "cidade": "São Paulo",
+      "funcionamento": "Das 08h às 17h, de seg. a sex.",
+      "telefone": "(11) 91111-6666",
+      "endereco": "Av. Paulista, 1000 - Bela Vista, SP",
+      "decorado": true,
+      "image": "/site-canopus-novo/images/Joaquim.jpg"
+    },
+    {
+      "nome": "Loja Botafogo",
+      "cidade": "Rio de Janeiro",
+      "funcionamento": "Das 09h às 19h, todos os dias",
+      "telefone": "(21) 2042-4039",
+      "endereco": "Rua Arnaldo Quintela, 24 - Botafogo, RJ",
+      "decorado": true,
+      "image": "/site-canopus-novo/images/Tatuape.jpg"
+    },
+    {
+      "nome": "Loja Barra",
+      "cidade": "Rio de Janeiro",
+      "funcionamento": "Das 10h às 18h, de seg. a sáb.",
+      "telefone": "(21) 98888-7777",
+      "endereco": "Av. das Américas, 7777 - Barra, RJ",
+      "decorado": false,
+      "image": "/site-canopus-novo/images/Paulista.jpg"
+    },
+    {
+      "nome": "Loja Tijuca",
+      "cidade": "Rio de Janeiro",
+      "funcionamento": "Das 08h às 17h, de seg. a sex.",
+      "telefone": "(21) 97777-8888",
+      "endereco": "Rua Conde de Bonfim, 300 - Tijuca, RJ",
+      "decorado": true,
+      "image": "/site-canopus-novo/images/CampoBelo.jpg"
+    }
+  ]
+  

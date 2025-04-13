@@ -22,8 +22,10 @@ export default function BuildingsCards({ data }: Props) {
           BREVE LANÇAMENTO
         </div>
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-center text-white z-10">
-          <h2 className="text-2xl font-bold tracking-wide">THE PLACE</h2>
-          <p className="text-sm">SANTO AGOSTINHO</p>
+          <h2 className="text-2xl font-bold tracking-wide">
+            {data.name.split(" - ")[0]}
+          </h2>
+          <p className="text-sm">{data.name.split(" - ")[1]}</p>
         </div>
       </div>
 
@@ -40,7 +42,9 @@ export default function BuildingsCards({ data }: Props) {
           </div>
         </div>
 
-        <p className="text-center mt-2 font-medium">{data.name.toUpperCase()}</p>
+        <p className="text-center mt-2 font-medium">
+          {data.name.toUpperCase()}
+        </p>
 
         <div
           className={clsx(

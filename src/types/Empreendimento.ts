@@ -6,5 +6,6 @@ export type Empreendimento = {
     suites: number;
     semiSuites: number;
     garage: number;
+    city: string;
   };
   
