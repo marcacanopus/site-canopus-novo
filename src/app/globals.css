@@ -3,8 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --canopusBlue: #0F3C52;
-  --canopusYellow: #CFBC7B;
+  --canopusBlue: #0f3c52;
+  --canopusYellow: #cfbc7b;
   --CanopusBlueLight: #2bd4c3;
 }
 
@@ -14,8 +14,8 @@
   --color-canopus-blue: var(--canopusBlue);
   --color-canopus-yellow: var(--canopusYellow);
   --color-canopus-blue-light: var(--canopusBlueLight);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-poppins);
+  /* --font-mono: var(--font-geist-mono); */
 }
 
 @media (prefers-color-scheme: white) {
@@ -28,10 +28,10 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   overflow-x: hidden;
 }
 
-.items-center{
+.items-center {
   justify-items: center;
 }

@@ -1,5 +1,5 @@
 type Building = {
-  name: string;
+  title: string;
   status: string;
   color: {
     primary: string;
@@ -29,7 +29,7 @@ const Banner = (building: Building) => {
               : building.status === "lancamento" &&
                 "EMPREENDIMENTO EM LANÇAMENTO"}
           </span>
-          <h1 className="text-4xl font-bold text-white">{building.name}</h1>
+          <h1 className="text-4xl font-bold text-white">{building.title}</h1>
         </div>
       </div>
     </div>

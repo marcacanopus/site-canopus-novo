@@ -1,10 +1,12 @@
 {
   "banner": "/site-canopus-novo/images/banner_boa_vista.webp",
-  "name": "Alto da Boa Vista em São Paulo",
+  "title_banner": "Alto da Boa Vista em São Paulo",
+  "name": "Alto da Boa Vista",
   "status": "concluido",
   "color": {
     "primary": "#a65c9e",
     "secondary": "#a65c9e"
   },
-  "logo": "/site-canopus-novo/images/logo_today_joaquim_tavora_01_f521322449.webp"
+  "logo": "/site-canopus-novo/images/logo_today_joaquim_tavora_01_f521322449.webp",
+  "address": "Av. Adolfo Pinheiro, 1107 Alto da Boa Vista, SP"
 }

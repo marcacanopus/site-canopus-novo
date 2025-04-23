@@ -1,19 +1,16 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import { Poppins } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import footerData from "@/data/footer.json";
 import { CityProvider } from "@/context/cityContext";
+import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const fontPoppins = Poppins({
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  variable: "--font-poppins",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -27,10 +24,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="en" className={`${fontPoppins.variable} antialiased`}>
+      <body>
         <CityProvider>
           <Header />
           <main className="pt-20">{children}</main>

@@ -4,6 +4,8 @@ import { useEffect } from "react";
 import building from "@/data/building.json";
 import Banner from "./components/Banner";
 import About from "./components/About";
+import Breadcrumb from "./components/Breadcrumb";
+import Gallery from "./components/Gallery";
 
 export default function Building() {
   const primaryColor = building.color.primary;
@@ -27,13 +29,21 @@ export default function Building() {
   return (
     <>
       <Banner
-        name={building.name}
+        title={building.title_banner}
         status={building.status}
         color={building.color}
         banner={building.banner}
       />
 
-      <About name={building.name} logo={building.logo} />
+      <About
+        name={building.name}
+        logo={building.logo}
+        address={building.address}
+      />
+
+      <Breadcrumb name={building.name} />
+
+      <Gallery />
     </>
   );
 }
