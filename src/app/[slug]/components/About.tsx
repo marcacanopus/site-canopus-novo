@@ -32,7 +32,6 @@ const About = (props: Props) => {
                 src={props.logo}
                 width={100}
                 height={116}
-                objectFit="contain"
                 alt={props.name}
               />
             </div>

@@ -3,17 +3,7 @@
 import stores from "@/data/stores.json";
 import { useState } from "react";
 import Image from "next/image";
-import { Clock, Lamp, Locate, MapPin, Phone } from "lucide-react";
-
-interface Store {
-  nome: string;
-  cidade: string;
-  funcionamento: string;
-  telefone: string;
-  endereco: string;
-  decorado: boolean;
-  image: string;
-}
+import { Clock, Lamp, MapPin, Phone } from "lucide-react";
 
 export default function StoreSlider({ cidadeAtiva }: { cidadeAtiva: string }) {
   const lojasFiltradas = stores.filter(

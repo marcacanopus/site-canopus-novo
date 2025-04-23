@@ -2,6 +2,16 @@
 
 import { useEffect, useRef } from 'react';
 
+declare global {
+  interface Window {
+    instgrm: {
+      Embeds: {
+        process: () => void;
+      };
+    };
+  }
+}
+
 type Props = {
   url: string;
 };
@@ -20,15 +30,15 @@ export default function InstagramEmbed({ url }: Props) {
       script.src = 'https://www.instagram.com/embed.js';
       script.async = true;
       script.onload = () => {
-        if ((window as any).instgrm) {
-          (window as any).instgrm.Embeds.process();
+        if (window.instgrm) {
+          window.instgrm.Embeds.process();
         }
       };
       document.body.appendChild(script);
     } else {
       // Se o script já estiver carregado, processa diretamente
-      if ((window as any).instgrm) {
-        (window as any).instgrm.Embeds.process();
+      if (window.instgrm) {
+        window.instgrm.Embeds.process();
       }
     }
   }, []);

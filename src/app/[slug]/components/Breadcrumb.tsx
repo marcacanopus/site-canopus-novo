@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 type Props = {
   name: string;
 };
@@ -9,12 +11,12 @@ const Breadcrumb = (props: Props) => {
         <nav className="flex" aria-label="Breadcrumb">
           <ol className="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
             <li className="inline-flex items-center">
-              <a
+              <Link
                 href="/"
                 className="ms-1 text-[#6A6851] hover:text-[var(--canopusBlue)] md:ms-2"
               >
                 Página inicial
-              </a>
+              </Link>
             </li>
             <li>
               <div className="flex items-center">
@@ -27,16 +29,16 @@ const Breadcrumb = (props: Props) => {
                   viewBox="0 0 16 16"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
                   />
                 </svg>
-                <a
+                <Link
                   href="/empreendimentos"
                   className="ms-1 text-[#6A6851] hover:text-[var(--canopusBlue)] md:ms-2"
                 >
                   Imóveis
-                </a>
+                </Link>
               </div>
             </li>
             <li aria-current="page">
@@ -50,7 +52,7 @@ const Breadcrumb = (props: Props) => {
                   viewBox="0 0 16 16"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
                   />
                 </svg>

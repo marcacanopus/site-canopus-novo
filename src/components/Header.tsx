@@ -6,6 +6,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { useCity } from "@/context/cityContext";
 import { Menu, X } from "lucide-react"; // ícones do shadcn/lucide
+import { City } from "@/context/cityContext";
 
 export default function Header() {
   const { activeCity, setActiveCity } = useCity();
@@ -13,7 +14,7 @@ export default function Header() {
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
-  const handleCityClick = (city: any) => {
+  const handleCityClick = (city: City) => {
     setActiveCity(activeCity === city ? "geral" : city);
     setIsOpen(false); // fecha o menu no mobile
   };
@@ -61,7 +62,7 @@ export default function Header() {
                 className={`btn-sm p-1 font-bold ${
                   activeCity === city ? "bg-gray-200" : ""
                 } rounded text-canopus-blue hover:cursor-pointer`}
-                onClick={() => handleCityClick(city)}
+                onClick={() => handleCityClick(city as City)}
               >
                 {city === "São Paulo"
                   ? "SP"
@@ -95,7 +96,7 @@ export default function Header() {
                 className={`btn-sm p-1 font-bold w-full ${
                   activeCity === city ? "bg-gray-200" : ""
                 } rounded text-canopus-blue hover:cursor-pointer`}
-                onClick={() => handleCityClick(city)}
+                onClick={() => handleCityClick(city as City)}
               >
                 {city === "São Paulo"
                   ? "SP"

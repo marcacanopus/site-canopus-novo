@@ -3,7 +3,7 @@
 
 import { createContext, useContext, useState, ReactNode } from 'react';
 
-type City = 'São Paulo' | 'Belo Horizonte' | 'Rio de Janeiro' | 'geral';
+export type City = 'São Paulo' | 'Belo Horizonte' | 'Rio de Janeiro' | 'geral';
 
 interface CityContextProps {
   activeCity: City;

@@ -11,20 +11,20 @@ export default function Building() {
   const primaryColor = building.color.primary;
   const secondaryColor = building.color.secondary;
 
+  // const setBuildingColors = () => {
+
+  // };
+
   useEffect(() => {
-    primaryColor
-      ? document.documentElement.style.setProperty(
-          "--primary-color",
-          primaryColor
-        )
-      : "#000000";
-    secondaryColor
-      ? document.documentElement.style.setProperty(
-          "--secondary-color",
-          secondaryColor
-        )
-      : "#000000";
-  }, []);
+    document.documentElement.style.setProperty(
+      "--primary-color",
+      primaryColor ?? "#000000"
+    );
+    document.documentElement.style.setProperty(
+      "--secondary-color",
+      secondaryColor ?? "#000000"
+    );
+  }, [primaryColor, secondaryColor]);
 
   return (
     <>
