@@ -7,6 +7,10 @@ import About from "./components/About";
 import Breadcrumb from "./components/Breadcrumb";
 import Gallery from "./components/Gallery";
 
+export function generateStaticParams() {
+  return [{}];
+}
+
 export default function Building() {
   const primaryColor = building.color.primary;
   const secondaryColor = building.color.secondary;
