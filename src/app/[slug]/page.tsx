@@ -1,9 +1,11 @@
 import BuildingTemplate from "./buildingTemplate";
 
-export function generateStaticParams() {
-  return [{}];
+export async function generateStaticParams() {
+  return [{
+    slug: 'slug'
+  }];
 }
 
-export default function Building() {
+export default function Page() {
   return <BuildingTemplate />;
 }
