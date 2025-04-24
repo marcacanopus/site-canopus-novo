@@ -8,5 +8,58 @@
     "secondary": "#a65c9e"
   },
   "logo": "/site-canopus-novo/images/logo_today_joaquim_tavora_01_f521322449.webp",
-  "address": "Av. Adolfo Pinheiro, 1107 Alto da Boa Vista, SP"
+  "address": "Av. Adolfo Pinheiro, 1107 Alto da Boa Vista, SP",
+  "gallery": [
+    {
+      "title": "Áreas comuns",
+      "items": [
+        {
+          "image": "/site-canopus-novo/images/bg_galeria.webp",
+          "description": "Área comum 1"
+        },
+        {
+          "image": "/site-canopus-novo/images/bg-tour-visita.webp",
+          "description": "Área comum 2"
+        },
+        {
+          "image": "/site-canopus-novo/images/img_bg_topo.webp",
+          "description": "Área comum 3"
+        }
+      ]
+    },
+    {
+      "title": "Apartamentos",
+      "items": [
+        {
+          "image": "/site-canopus-novo/images/bg_galeria.webp",
+          "description": "Apartamento 1"
+        },
+        {
+          "image": "/site-canopus-novo/images/bg-tour-visita.webp",
+          "description": "Apartamento 2"
+        },
+        {
+          "image": "/site-canopus-novo/images/img_bg_topo.webp",
+          "description": "Apartamento 3"
+        }
+      ]
+    },
+    {
+      "title": "Decorados",
+      "items": [
+        {
+          "image": "/site-canopus-novo/images/bg_galeria.webp",
+          "description": "Decorado 1"
+        },
+        {
+          "image": "/site-canopus-novo/images/bg-tour-visita.webp",
+          "description": "Decorado 2"
+        },
+        {
+          "image": "/site-canopus-novo/images/img_bg_topo.webp",
+          "description": "Decorado 3"
+        }
+      ]
+    }
+  ]
 }

@@ -39,7 +39,7 @@ const BuildingTemplate = () => {
 
       <Breadcrumb name={building.name} />
 
-      <Gallery />
+      <Gallery gallery={building.gallery} />
     </>
   );
 };
