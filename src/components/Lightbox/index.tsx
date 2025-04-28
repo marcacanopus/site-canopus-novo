@@ -1,9 +1,5 @@
-import React, { useEffect, useState, MouseEvent, useRef } from "react";
+import React, { useEffect, useState, MouseEvent } from "react";
 import styles from "./Lightbox.module.css";
-import Image from "next/image";
-// import { Button } from "components/Button";
-// import { Icon } from "components/Icon";
-
 interface LightboxProps {
   urls: {
     src: string;
@@ -18,7 +14,6 @@ const Lightbox: React.FC<LightboxProps> = ({ urls, currentIndex, onClose }) => {
   const [isZoomed, setIsZoomed] = useState(false);
   const [fadeClass, setFadeClass] = useState("");
   const [zoomPosition, setZoomPosition] = useState({ x: 0, y: 0 });
-  const imgRef = useRef<HTMLImageElement>(null);
   const [imgDimensions, setImgDimensions] = useState({ width: 0, height: 0 });
 
   useEffect(() => {
