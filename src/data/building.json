@@ -61,5 +61,109 @@
         }
       ]
     }
+  ],
+  "plans": [
+    {
+      "title": "Planta Baixa",
+      "items": [
+        {
+          "image": "/site-canopus-novo/images/FAB_NR_final-1-e-10_R04.jpg.webp",
+          "description": "Planta baixa 1"
+        },
+        {
+          "image": "/site-canopus-novo/images/FAB_NR_final-11-e-12_R04.jpg.webp",
+          "description": "Planta baixa 2"
+        },
+        {
+          "image": "/site-canopus-novo/images/FAB_OP_final-3-e-8_R04.jpg.webp",
+          "description": "Planta baixa 3"
+        }
+      ]
+    },
+    {
+      "title": "Planta do Apartamento Studio NR",
+      "items": [
+        {
+          "image": "/site-canopus-novo/images/FAB_NR_final-1-e-10_R04.jpg.webp",
+          "description": "Planta do Apartamento Studio NR 1"
+        },
+        {
+          "image": "/site-canopus-novo/images/FAB_NR_final-11-e-12_R04.jpg.webp",
+          "description": "Planta do Apartamento Studio NR 2"
+        },
+        {
+          "image": "/site-canopus-novo/images/FAB_OP_final-3-e-8_R04.jpg.webp",
+          "description": "Planta do Apartamento Studio NR 3"
+        }
+      ]
+    },
+    {
+      "title": "Planta do Apartamento de 1 Dormitório com 29m2",
+      "items": [
+        {
+          "image": "/site-canopus-novo/images/FAB_NR_final-1-e-10_R04.jpg.webp",
+          "description": "Planta do Apartamento de 1 Dormitório com 29m2 1"
+        },
+        {
+          "image": "/site-canopus-novo/images/FAB_NR_final-11-e-12_R04.jpg.webp",
+          "description": "Planta do Apartamento de 1 Dormitório com 29m2 2"
+        },
+        {
+          "image": "/site-canopus-novo/images/FAB_OP_final-3-e-8_R04.jpg.webp",
+          "description": "Planta do Apartamento de 1 Dormitório com 29m2 3"
+        }
+      ]
+    },
+    {
+      "title": "Planta do Apartamento de 2 Dormitórios com 39m2",
+      "items": [
+        {
+          "image": "/site-canopus-novo/images/FAB_NR_final-1-e-10_R04.jpg.webp",
+          "description": "Planta do Apartamento de 2 Dormitórios com 39m2 1"
+        },
+        {
+          "image": "/site-canopus-novo/images/FAB_NR_final-11-e-12_R04.jpg.webp",
+          "description": "Planta do Apartamento de 2 Dormitórios com 39m2 2"
+        },
+        {
+          "image": "/site-canopus-novo/images/FAB_OP_final-3-e-8_R04.jpg.webp",
+          "description": "Planta do Apartamento de 2 Dormitórios com 39m2 3"
+        }
+      ]
+    },
+    {
+      "title": "Planta do Apartamento de 2 Dormitórios com 39m2",
+      "items": [
+        {
+          "image": "/site-canopus-novo/images/FAB_NR_final-1-e-10_R04.jpg.webp",
+          "description": "Planta do Apartamento de 2 Dormitórios com 39m2 1"
+        },
+        {
+          "image": "/site-canopus-novo/images/FAB_NR_final-11-e-12_R04.jpg.webp",
+          "description": "Planta do Apartamento de 2 Dormitórios com 39m2 2"
+        },
+        {
+          "image": "/site-canopus-novo/images/FAB_OP_final-3-e-8_R04.jpg.webp",
+          "description": "Planta do Apartamento de 2 Dormitórios com 39m2 3"
+        }
+      ]
+    },
+    {
+      "title": "Planta do Apartamento de 2 Dormitórios com 39m2",
+      "items": [
+        {
+          "image": "/site-canopus-novo/images/FAB_NR_final-1-e-10_R04.jpg.webp",
+          "description": "Planta do Apartamento de 2 Dormitórios com 39m2 1"
+        },
+        {
+          "image": "/site-canopus-novo/images/FAB_NR_final-11-e-12_R04.jpg.webp",
+          "description": "Planta do Apartamento de 2 Dormitórios com 39m2 2"
+        },
+        {
+          "image": "/site-canopus-novo/images/FAB_OP_final-3-e-8_R04.jpg.webp",
+          "description": "Planta do Apartamento de 2 Dormitórios com 39m2 3"
+        }
+      ]
+    }
   ]
 }

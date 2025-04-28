@@ -1,7 +1,6 @@
 import { useMemo, useState, useEffect, ButtonHTMLAttributes } from "react";
 import Image from "next/image";
-import Slider, { Settings } from "react-slick";
-// import FsLightbox from "fslightbox-react";
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Lightbox from "@/components/Lightbox";

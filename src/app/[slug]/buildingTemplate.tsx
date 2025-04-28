@@ -6,6 +6,8 @@ import Banner from "./components/Banner";
 import About from "./components/About";
 import Breadcrumb from "./components/Breadcrumb";
 import Gallery from "./components/Gallery";
+import Contact from "./components/Contact";
+import Plans from "./components/Plans";
 
 const BuildingTemplate = () => {
   const primaryColor = building.color.primary;
@@ -40,6 +42,10 @@ const BuildingTemplate = () => {
       <Breadcrumb name={building.name} />
 
       <Gallery gallery={building.gallery} />
+
+      <Contact />
+      
+      <Plans plans={building.plans} />
     </>
   );
 };
