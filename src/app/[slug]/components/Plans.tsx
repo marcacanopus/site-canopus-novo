@@ -64,7 +64,7 @@ const Plans = (props: Props) => {
   };
 
   return (
-    <div className="pt-7">
+    <div className="pt-7 pb-40">
       <div className="container mx-auto border border-[var(--primary-color)] px-6 py-7">
         <div className="flex">
           <div className="w-1/5 border-e-1 border-gray-400 pe-6 h-[500px] overflow-y-auto">

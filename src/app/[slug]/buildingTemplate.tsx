@@ -8,6 +8,9 @@ import Breadcrumb from "./components/Breadcrumb";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
 import Plans from "./components/Plans";
+import Section3d from "./components/3d";
+import Map from "./components/Map";
+import Differentials from "./components/Differentials";
 
 const BuildingTemplate = () => {
   const primaryColor = building.color.primary;
@@ -46,6 +49,12 @@ const BuildingTemplate = () => {
       <Contact />
       
       <Plans plans={building.plans} />
+
+      <Section3d />
+
+      <Map />
+
+      <Differentials />
     </>
   );
 };

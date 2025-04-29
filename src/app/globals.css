@@ -3,9 +3,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --canopusBlue: #0f3c52;
+  --canopusBlue: #003349;
   --canopusYellow: #cfbc7b;
   --CanopusBlueLight: #2bd4c3;
+  --buildingText: #6A6851;
 }
 
 @theme inline {
