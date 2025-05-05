@@ -165,5 +165,51 @@
         }
       ]
     }
+  ],
+  "areas": [
+    {
+      "name": "Elevadores com eficiência energética* (drive regenerativo)",
+      "image": "/site-canopus-novo/images/img_elevadores.webp"
+    },
+    {
+      "name": "Sistema de reuso de água da chuva*",
+      "image": "/site-canopus-novo/images/img_infra_ar.webp"
+    },
+    {
+      "name": "Infraestrutura para ar-condicionado*",
+      "image": "/site-canopus-novo/images/img_elevadores.webp"
+    },
+    {
+      "name": "Torneiras com temporizador*",
+      "image": "/site-canopus-novo/images/img_torneira.webp"
+    },
+    {
+      "name": "Elevadores com eficiência energética* (drive regenerativo)",
+      "image": "/site-canopus-novo/images/img_elevadores.webp"
+    },
+    {
+      "name": "Sistema de reuso de água da chuva*",
+      "image": "/site-canopus-novo/images/img_infra_ar.webp"
+    },
+    {
+      "name": "Infraestrutura para ar-condicionado*",
+      "image": "/site-canopus-novo/images/img_elevadores.webp"
+    },
+    {
+      "name": "Torneiras com temporizador*",
+      "image": "/site-canopus-novo/images/img_torneira.webp"
+    },
+    {
+      "name": "Sistema de reuso de água da chuva*",
+      "image": "/site-canopus-novo/images/img_infra_ar.webp"
+    },
+    {
+      "name": "Infraestrutura para ar-condicionado*",
+      "image": "/site-canopus-novo/images/img_elevadores.webp"
+    },
+    {
+      "name": "Torneiras com temporizador*",
+      "image": "/site-canopus-novo/images/img_torneira.webp"
+    }
   ]
 }

@@ -2,15 +2,17 @@
 
 import { useEffect } from "react";
 import building from "@/data/building.json";
-import Banner from "./components/Banner";
-import About from "./components/About";
-import Breadcrumb from "./components/Breadcrumb";
-import Gallery from "./components/Gallery";
-import Contact from "./components/Contact";
-import Plans from "./components/Plans";
-import Section3d from "./components/3d";
-import Map from "./components/Map";
-import Differentials from "./components/Differentials";
+import Banner from "./sections/Banner";
+import About from "./sections/About";
+import Breadcrumb from "./sections/Breadcrumb";
+import Gallery from "./sections/Gallery";
+import Contact from "./sections/Contact";
+import Plans from "./sections/Plans";
+import Section3d from "./sections/3d";
+import Map from "./sections/Map";
+import Differentials from "./sections/Differentials";
+import Areas from "./sections/Areas";
+import Stages from "./sections/Stages";
 
 const BuildingTemplate = () => {
   const primaryColor = building.color.primary;
@@ -55,6 +57,10 @@ const BuildingTemplate = () => {
       <Map />
 
       <Differentials />
+
+      <Areas areas={building.areas} />
+
+      <Stages />
     </>
   );
 };
