@@ -211,5 +211,38 @@
       "name": "Torneiras com temporizador*",
       "image": "/site-canopus-novo/images/img_torneira.webp"
     }
+  ],
+  "stages": {
+    "images": [
+      {
+        "src": "/site-canopus-novo/images/img_estagio_obra_1.webp",
+        "alt": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti."
+      },
+      {
+        "src": "/site-canopus-novo/images/img_estagio_obra_2.webp",
+        "alt": "Área comum 2"
+      },
+      {
+        "src": "/site-canopus-novo/images/img_estagio_obra_3.webp",
+        "alt": "img_estagio_obra_3"
+      },
+      {
+        "src": "/site-canopus-novo/images/img_estagio_obra_4.webp",
+        "alt": "img_estagio_obra_4"
+      },
+      {
+        "src": "/site-canopus-novo/images/img_estagio_obra_5.webp",
+        "alt": "img_estagio_obra_5"
+      },
+      {
+        "src": "/site-canopus-novo/images/img_estagio_obra_6.webp",
+        "alt": "img_estagio_obra_6"
+      }
+    ]
+  },
+  "videos": [
+    {
+      "link": "https://youtu.be/H7-rZG1dCsc"
+    }
   ]
 }

@@ -13,6 +13,7 @@ import Map from "./sections/Map";
 import Differentials from "./sections/Differentials";
 import Areas from "./sections/Areas";
 import Stages from "./sections/Stages";
+import Videos from "./sections/Videos";
 
 const BuildingTemplate = () => {
   const primaryColor = building.color.primary;
@@ -49,7 +50,7 @@ const BuildingTemplate = () => {
       <Gallery gallery={building.gallery} />
 
       <Contact />
-      
+
       <Plans plans={building.plans} />
 
       <Section3d />
@@ -60,7 +61,9 @@ const BuildingTemplate = () => {
 
       <Areas areas={building.areas} />
 
-      <Stages />
+      <Stages stages={building.stages} />
+
+      <Videos videos={building.videos} />
     </>
   );
 };

@@ -1,10 +1,38 @@
+import { useState } from "react";
 import Slider from "react-slick";
 import Image from "next/image";
 import Stage from "../components/Stage";
+import Lightbox from "@/components/Lightbox";
 
-const Stages = () => {
+type Props = {
+  stages: {
+    images?: {
+      src: string;
+      alt: string;
+    }[];
+  };
+};
+
+const Stages = (props: Props) => {
+  const { images } = props.stages!;
+  const [lightboxController, setLightboxController] = useState({
+    toggler: false,
+    slide: 1,
+  });
+
+  const openGallery = (index: number) => {
+    setLightboxController({
+      toggler: !lightboxController.toggler,
+      slide: index,
+    });
+  };
+
+  const closeLightbox = () => {
+    setLightboxController({ toggler: false, slide: 0 });
+  };
+
   return (
-    <div className="mb-40 bg-gray-100 bg-[url('/site-canopus-novo/images/building/bg_estagios_obra.webp')] bg-cover bg-center">
+    <div className="bg-gray-100 bg-[url('/site-canopus-novo/images/building/bg_estagios_obra.webp')] bg-cover bg-center">
       <div className="container mx-auto py-20">
         <h2 className="text-5xl text-white text-center font-bold mb-8">
           Estágios da obra
@@ -87,69 +115,30 @@ const Stages = () => {
               swipeToSlide: true,
             }}
           >
-            <div>
-              <div className="h-[150px] relative m-1">
-                <Image
-                  src="/site-canopus-novo/images/img_estagio_obra_1.webp"
-                  fill
-                  alt="Text"
-                  className="object-cover"
-                />
-              </div>
-            </div>
-            <div>
-              <div className="h-[150px] relative m-1">
-                <Image
-                  src="/site-canopus-novo/images/img_estagio_obra_2.webp"
-                  fill
-                  alt="Text"
-                  className="object-cover"
-                />
-              </div>
-            </div>
-            <div>
-              <div className="h-[150px] relative m-1">
-                <Image
-                  src="/site-canopus-novo/images/img_estagio_obra_3.webp"
-                  fill
-                  alt="Text"
-                  className="object-cover"
-                />
-              </div>
-            </div>
-            <div>
-              <div className="h-[150px] relative m-1">
-                <Image
-                  src="/site-canopus-novo/images/img_estagio_obra_4.webp"
-                  fill
-                  alt="Text"
-                  className="object-cover"
-                />
-              </div>
-            </div>
-            <div>
-              <div className="h-[150px] relative m-1">
-                <Image
-                  src="/site-canopus-novo/images/img_estagio_obra_5.webp"
-                  fill
-                  alt="Text"
-                  className="object-cover"
-                />
-              </div>
-            </div>
-            <div>
-              <div className="h-[150px] relative m-1">
-                <Image
-                  src="/site-canopus-novo/images/img_estagio_obra_6.webp"
-                  fill
-                  alt="Text"
-                  className="object-cover"
-                />
-              </div>
-            </div>
+            {images &&
+              images.map((image, index) => (
+                <div>
+                  <div className="h-[150px] relative m-1">
+                    <Image
+                      src={image.src}
+                      fill
+                      alt={image.alt}
+                      className="object-cover"
+                      onClick={() => openGallery(index)}
+                    />
+                  </div>
+                </div>
+              ))}
           </Slider>
         </div>
       </div>
+      {lightboxController.toggler && (
+        <Lightbox
+          onClose={closeLightbox}
+          urls={images!}
+          currentIndex={lightboxController.slide}
+        />
+      )}
     </div>
   );
 };
