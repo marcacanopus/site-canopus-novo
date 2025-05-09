@@ -16,6 +16,9 @@ import Stages from "./sections/Stages";
 import Videos from "./sections/Videos";
 import DeliveryStandard from "./sections/DeliveryStandard";
 import Smart from "./sections/Smart";
+import SimilarBuildings from "./sections/SimilarBuildings";
+import AboutSection from "@/components/About";
+import LegalInformations from "./sections/LegalInformations";
 
 const BuildingTemplate = () => {
   const primaryColor = building.color.primary;
@@ -70,6 +73,12 @@ const BuildingTemplate = () => {
       <DeliveryStandard gallery={building.delivery_standard} />
 
       <Smart />
+
+      <SimilarBuildings buildings={building.related} />
+
+      <AboutSection />
+
+      <LegalInformations />
     </>
   );
 };

@@ -258,5 +258,37 @@
       "label": "Perspectiva X Realidade da piscina do Today Brigadeiro",
       "image": "/site-canopus-novo/images/img_padrao_linha_today.webp"
     }
+  ],
+  "related": [
+    {
+      "image": "/site-canopus-novo/images/ThePlace.jpg",
+      "name": "The Place - Santo Agostinho",
+      "size": "150m²",
+      "city": "Belo Horizonte",
+      "rooms": 4,
+      "suites": 2,
+      "semiSuites": 2,
+      "garage": 5
+    },
+    {
+      "image": "/site-canopus-novo/images/Perdizes.jpg",
+      "name": "Perdizes - Santo Agostinho",
+      "size": "150m²",
+      "city": "São Paulo",
+      "rooms": 4,
+      "suites": 2,
+      "semiSuites": 2,
+      "garage": 5
+    },
+    {
+      "image": "/site-canopus-novo/images/Tatuape.jpg",
+      "name": "Tatuape - Santo Agostinho",
+      "size": "150m²",
+      "rooms": 4,
+      "city": "São Paulo",
+      "suites": 2,
+      "semiSuites": 2,
+      "garage": 5
+    }
   ]
 }

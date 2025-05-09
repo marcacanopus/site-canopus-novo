@@ -4,7 +4,7 @@ import StatsSection from "./StatsSection";
 
 export default function AboutSection() {
   return (
-    <section className="max-w-7xl mx-auto py-20 px-6">
+    <section className="max-w-7xl mx-auto py-10 px-6">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start mb-16">
         <h2 className="text-5xl md:text-6xl font-extrabold text-[var(--color-canopus-blue)] leading-tight">
           {data.title}
