@@ -13,12 +13,12 @@ export function EmbedVideo(props: VideoComponentProps) {
   const videoId = urlParts[urlParts.length - 1];
   const src = `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1`;
   const thumbnailSrc = `https://img.youtube.com/vi/${videoId}/0.jpg`;
-  const [isMobile, setIsMobile] = useState<boolean>(false);
+  // const [isMobile, setIsMobile] = useState<boolean>(false);
 
-  useEffect(() => {
-    const isWindowMobile = window.innerWidth < 768; // Check if window width is less than 768px
-    setIsMobile(isWindowMobile); // Update state with result of check
-  }, []);
+  // useEffect(() => {
+  //   const isWindowMobile = window.innerWidth < 768; // Check if window width is less than 768px
+  //   // setIsMobile(isWindowMobile); // Update state with result of check
+  // }, []);
   const handleClick = () => {
     setIsClicked(true);
   };

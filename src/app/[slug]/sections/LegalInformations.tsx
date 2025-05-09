@@ -1,5 +1,3 @@
-import BuildingsCards from "@/components/BuildindsCard";
-
 const LegalInformations = () => {
   return (
     <div className="py-20">

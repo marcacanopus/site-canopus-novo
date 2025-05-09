@@ -117,7 +117,7 @@ const Stages = (props: Props) => {
           >
             {images &&
               images.map((image, index) => (
-                <div>
+                <div key={index}>
                   <div className="h-[150px] relative m-1">
                     <Image
                       src={image.src}

@@ -1,7 +1,6 @@
-import { ButtonHTMLAttributes, ReactElement, ReactNode, JSX } from "react";
+import { ButtonHTMLAttributes, ReactNode, JSX } from "react";
 import Slider from "react-slick";
 import Image from "next/image";
-import { div } from "framer-motion/client";
 
 type Props = {
   gallery: {
