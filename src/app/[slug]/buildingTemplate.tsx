@@ -14,6 +14,7 @@ import Differentials from "./sections/Differentials";
 import Areas from "./sections/Areas";
 import Stages from "./sections/Stages";
 import Videos from "./sections/Videos";
+import DeliveryStandard from "./sections/DeliveryStandard";
 
 const BuildingTemplate = () => {
   const primaryColor = building.color.primary;
@@ -64,6 +65,8 @@ const BuildingTemplate = () => {
       <Stages stages={building.stages} />
 
       <Videos videos={building.videos} />
+
+      <DeliveryStandard gallery={building.delivery_standard} />
     </>
   );
 };

@@ -244,5 +244,19 @@
     {
       "link": "https://youtu.be/H7-rZG1dCsc"
     }
+  ],
+  "delivery_standard": [
+    {
+      "label": "Perspectiva X Realidade da academia do Today Brigadeiro",
+      "image": "/site-canopus-novo/images/img_padrao_linha_today.webp"
+    },
+    {
+      "label": "Perspectiva X Realidade da churrasqueira do Today Brigadeiro",
+      "image": "/site-canopus-novo/images/img_padrao_linha_today.webp"
+    },
+    {
+      "label": "Perspectiva X Realidade da piscina do Today Brigadeiro",
+      "image": "/site-canopus-novo/images/img_padrao_linha_today.webp"
+    }
   ]
 }
